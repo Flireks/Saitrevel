@@ -1,0 +1,279 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9;
+    background-color: #fff;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.header__logo {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.nav__list {
+    display: flex;
+    gap: 30px;
+}
+
+.nav__item {
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.nav__item:hover {
+    font-size: 24px;
+}
+
+.footer {
+    background-color: #000;
+}
+
+.footer__container {
+    padding: 15px 0;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 100px 0;
+}
+
+.home__bgimg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -10;
+    background-color: #000;
+}
+
+.home__bgimg img {
+    opacity: 0.5;
+    object-fit: cover;
+}
+
+.home__container {
+    max-width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    color: #fff;
+}
+
+.home__title {
+    font-size: 65px;
+    padding: 20px 0;
+}
+
+.home__desc {
+    font-size: 20px;
+}
+
+.home__btn {
+    font-size: 20px;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 10px 50px;
+    transition: 0.3s;
+}
+
+.home__btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+#about {
+    background-color: #fff;
+}
+
+.about__container {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.about__title {
+    font-size: 45px;
+}
+
+.about__desc {
+    border: 1px solid rgba(34, 60, 80, 0.2);
+    padding: 50px;
+    box-shadow: 0px 0px 15px 12px rgba(34, 60, 80, 0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.about__btn {
+    align-self: center;
+    font-size: 20px;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 10px 50px;
+    transition: 0.3s;
+}
+
+.about__btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+#rewiews {
+    background-color: #000;
+}
+
+.rewiews__container {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    color: #fff;
+}
+
+.rewiews__title {
+    font-size: 45px;
+}
+
+.rewiews__cards {
+    display: flex;
+    gap: 10%;
+}
+
+.rewiews__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: #fff;
+    color: #000;
+    padding: 40px 25px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.card__avatar {
+    width: 50%;
+}
+
+.card__title {
+    font-weight: bold;
+}
+
+.rewiews__btn {
+    align-self: center;
+    font-size: 20px;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 10px 50px;
+    transition: 0.3s;
+}
+
+.rewiews__btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+#download {
+    background-color: #fff;
+}
+
+.download__container {
+    display: flex;
+    gap: 10%;
+}
+
+.download__left {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.download__title {
+    font-size: 45px;
+    padding: 30px 0;
+}
+
+.download__btns {
+    display: flex;
+    gap: 10%;
+}
+
+.download__btn {
+    align-self: center;
+    font-size: 20px;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 10px 50px;
+    transition: 0.3s;
+}
+
+.download__btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.download__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download__img {
+    width: 70%;
+    border: 20px groove #000;
+    border-radius: 20px;
+
+}
